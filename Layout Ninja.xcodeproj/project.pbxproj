@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4C2F9D91946387C005105CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C2F9D81946387C005105CA /* Cocoa.framework */; };
+		F4C2F9E31946387C005105CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9E11946387C005105CA /* InfoPlist.strings */; };
+		F4C2F9E51946387C005105CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2F9E41946387C005105CA /* main.m */; };
+		F4C2F9E91946387C005105CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9E71946387C005105CA /* Credits.rtf */; };
+		F4C2F9EC1946387C005105CA /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2F9EB1946387C005105CA /* LNAppDelegate.m */; };
+		F4C2F9EF1946387C005105CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9ED1946387C005105CA /* MainMenu.xib */; };
+		F4C2F9F11946387C005105CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9F01946387C005105CA /* Images.xcassets */; };
+		F4C2F9F81946387C005105CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C2F9F71946387C005105CA /* XCTest.framework */; };
+		F4C2F9F91946387C005105CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C2F9D81946387C005105CA /* Cocoa.framework */; };
+		F4C2FA011946387C005105CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9FF1946387C005105CA /* InfoPlist.strings */; };
+		F4C2FA031946387C005105CA /* Layout_NinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2FA021946387C005105CA /* Layout_NinjaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C2F9FA1946387C005105CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C2F9CD1946387C005105CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C2F9D41946387C005105CA;
+			remoteInfo = "Layout Ninja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4C2F9D51946387C005105CA /* Layout Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layout Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C2F9D81946387C005105CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F4C2F9DB1946387C005105CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F4C2F9DC1946387C005105CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4C2F9DD1946387C005105CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4C2F9E01946387C005105CA /* Layout Ninja-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Layout Ninja-Info.plist"; sourceTree = "<group>"; };
+		F4C2F9E21946387C005105CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4C2F9E41946387C005105CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4C2F9E61946387C005105CA /* Layout Ninja-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Layout Ninja-Prefix.pch"; sourceTree = "<group>"; };
+		F4C2F9E81946387C005105CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F4C2F9EA1946387C005105CA /* LNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppDelegate.h; sourceTree = "<group>"; };
+		F4C2F9EB1946387C005105CA /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
+		F4C2F9EE1946387C005105CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F4C2F9F01946387C005105CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4C2F9F61946387C005105CA /* Layout NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layout NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C2F9F71946387C005105CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4C2F9FE1946387C005105CA /* Layout NinjaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Layout NinjaTests-Info.plist"; sourceTree = "<group>"; };
+		F4C2FA001946387C005105CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4C2FA021946387C005105CA /* Layout_NinjaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layout_NinjaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C2F9D21946387C005105CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2F9D91946387C005105CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C2F9F31946387C005105CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2F9F91946387C005105CA /* Cocoa.framework in Frameworks */,
+				F4C2F9F81946387C005105CA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C2F9CC1946387C005105CA = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9DE1946387C005105CA /* Layout Ninja */,
+				F4C2F9FC1946387C005105CA /* Layout NinjaTests */,
+				F4C2F9D71946387C005105CA /* Frameworks */,
+				F4C2F9D61946387C005105CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C2F9D61946387C005105CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9D51946387C005105CA /* Layout Ninja.app */,
+				F4C2F9F61946387C005105CA /* Layout NinjaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C2F9D71946387C005105CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9D81946387C005105CA /* Cocoa.framework */,
+				F4C2F9F71946387C005105CA /* XCTest.framework */,
+				F4C2F9DA1946387C005105CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4C2F9DA1946387C005105CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9DB1946387C005105CA /* AppKit.framework */,
+				F4C2F9DC1946387C005105CA /* CoreData.framework */,
+				F4C2F9DD1946387C005105CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F4C2F9DE1946387C005105CA /* Layout Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9EA1946387C005105CA /* LNAppDelegate.h */,
+				F4C2F9EB1946387C005105CA /* LNAppDelegate.m */,
+				F4C2F9ED1946387C005105CA /* MainMenu.xib */,
+				F4C2F9F01946387C005105CA /* Images.xcassets */,
+				F4C2F9DF1946387C005105CA /* Supporting Files */,
+			);
+			path = "Layout Ninja";
+			sourceTree = "<group>";
+		};
+		F4C2F9DF1946387C005105CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9E01946387C005105CA /* Layout Ninja-Info.plist */,
+				F4C2F9E11946387C005105CA /* InfoPlist.strings */,
+				F4C2F9E41946387C005105CA /* main.m */,
+				F4C2F9E61946387C005105CA /* Layout Ninja-Prefix.pch */,
+				F4C2F9E71946387C005105CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C2F9FC1946387C005105CA /* Layout NinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2FA021946387C005105CA /* Layout_NinjaTests.m */,
+				F4C2F9FD1946387C005105CA /* Supporting Files */,
+			);
+			path = "Layout NinjaTests";
+			sourceTree = "<group>";
+		};
+		F4C2F9FD1946387C005105CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C2F9FE1946387C005105CA /* Layout NinjaTests-Info.plist */,
+				F4C2F9FF1946387C005105CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C2F9D41946387C005105CA /* Layout Ninja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C2FA061946387C005105CA /* Build configuration list for PBXNativeTarget "Layout Ninja" */;
+			buildPhases = (
+				F4C2F9D11946387C005105CA /* Sources */,
+				F4C2F9D21946387C005105CA /* Frameworks */,
+				F4C2F9D31946387C005105CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Layout Ninja";
+			productName = "Layout Ninja";
+			productReference = F4C2F9D51946387C005105CA /* Layout Ninja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C2F9F51946387C005105CA /* Layout NinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C2FA091946387C005105CA /* Build configuration list for PBXNativeTarget "Layout NinjaTests" */;
+			buildPhases = (
+				F4C2F9F21946387C005105CA /* Sources */,
+				F4C2F9F31946387C005105CA /* Frameworks */,
+				F4C2F9F41946387C005105CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C2F9FB1946387C005105CA /* PBXTargetDependency */,
+			);
+			name = "Layout NinjaTests";
+			productName = "Layout NinjaTests";
+			productReference = F4C2F9F61946387C005105CA /* Layout NinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C2F9CD1946387C005105CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Simon Blommegård";
+				TargetAttributes = {
+					F4C2F9F51946387C005105CA = {
+						TestTargetID = F4C2F9D41946387C005105CA;
+					};
+				};
+			};
+			buildConfigurationList = F4C2F9D01946387C005105CA /* Build configuration list for PBXProject "Layout Ninja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C2F9CC1946387C005105CA;
+			productRefGroup = F4C2F9D61946387C005105CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C2F9D41946387C005105CA /* Layout Ninja */,
+				F4C2F9F51946387C005105CA /* Layout NinjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C2F9D31946387C005105CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2F9E31946387C005105CA /* InfoPlist.strings in Resources */,
+				F4C2F9F11946387C005105CA /* Images.xcassets in Resources */,
+				F4C2F9E91946387C005105CA /* Credits.rtf in Resources */,
+				F4C2F9EF1946387C005105CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C2F9F41946387C005105CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2FA011946387C005105CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C2F9D11946387C005105CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2F9EC1946387C005105CA /* LNAppDelegate.m in Sources */,
+				F4C2F9E51946387C005105CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C2F9F21946387C005105CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2FA031946387C005105CA /* Layout_NinjaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C2F9FB1946387C005105CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C2F9D41946387C005105CA /* Layout Ninja */;
+			targetProxy = F4C2F9FA1946387C005105CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C2F9E11946387C005105CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C2F9E21946387C005105CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4C2F9E71946387C005105CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C2F9E81946387C005105CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F4C2F9ED1946387C005105CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C2F9EE1946387C005105CA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F4C2F9FF1946387C005105CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C2FA001946387C005105CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C2FA041946387C005105CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4C2FA051946387C005105CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4C2FA071946387C005105CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Layout Ninja/Layout Ninja-Prefix.pch";
+				INFOPLIST_FILE = "Layout Ninja/Layout Ninja-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4C2FA081946387C005105CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Layout Ninja/Layout Ninja-Prefix.pch";
+				INFOPLIST_FILE = "Layout Ninja/Layout Ninja-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4C2FA0A1946387C005105CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Layout Ninja.app/Contents/MacOS/Layout Ninja";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Layout Ninja/Layout Ninja-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Layout NinjaTests/Layout NinjaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4C2FA0B1946387C005105CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Layout Ninja.app/Contents/MacOS/Layout Ninja";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Layout Ninja/Layout Ninja-Prefix.pch";
+				INFOPLIST_FILE = "Layout NinjaTests/Layout NinjaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C2F9D01946387C005105CA /* Build configuration list for PBXProject "Layout Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C2FA041946387C005105CA /* Debug */,
+				F4C2FA051946387C005105CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C2FA061946387C005105CA /* Build configuration list for PBXNativeTarget "Layout Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C2FA071946387C005105CA /* Debug */,
+				F4C2FA081946387C005105CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C2FA091946387C005105CA /* Build configuration list for PBXNativeTarget "Layout NinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C2FA0A1946387C005105CA /* Debug */,
+				F4C2FA0B1946387C005105CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C2F9CD1946387C005105CA /* Project object */;
+}
