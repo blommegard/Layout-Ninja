@@ -14,21 +14,7 @@
 		F4C2F9EC1946387C005105CA /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2F9EB1946387C005105CA /* LNAppDelegate.m */; };
 		F4C2F9EF1946387C005105CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9ED1946387C005105CA /* MainMenu.xib */; };
 		F4C2F9F11946387C005105CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9F01946387C005105CA /* Images.xcassets */; };
-		F4C2F9F81946387C005105CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C2F9F71946387C005105CA /* XCTest.framework */; };
-		F4C2F9F91946387C005105CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C2F9D81946387C005105CA /* Cocoa.framework */; };
-		F4C2FA011946387C005105CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C2F9FF1946387C005105CA /* InfoPlist.strings */; };
-		F4C2FA031946387C005105CA /* Layout_NinjaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2FA021946387C005105CA /* Layout_NinjaTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F4C2F9FA1946387C005105CA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F4C2F9CD1946387C005105CA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4C2F9D41946387C005105CA;
-			remoteInfo = "Layout Ninja";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F4C2F9D51946387C005105CA /* Layout Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layout Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,11 +31,7 @@
 		F4C2F9EB1946387C005105CA /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
 		F4C2F9EE1946387C005105CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F4C2F9F01946387C005105CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F4C2F9F61946387C005105CA /* Layout NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layout NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C2F9F71946387C005105CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F4C2F9FE1946387C005105CA /* Layout NinjaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Layout NinjaTests-Info.plist"; sourceTree = "<group>"; };
-		F4C2FA001946387C005105CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F4C2FA021946387C005105CA /* Layout_NinjaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layout_NinjaTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +43,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C2F9F31946387C005105CA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4C2F9F91946387C005105CA /* Cocoa.framework in Frameworks */,
-				F4C2F9F81946387C005105CA /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				F4C2F9DE1946387C005105CA /* Layout Ninja */,
-				F4C2F9FC1946387C005105CA /* Layout NinjaTests */,
 				F4C2F9D71946387C005105CA /* Frameworks */,
 				F4C2F9D61946387C005105CA /* Products */,
 			);
@@ -87,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				F4C2F9D51946387C005105CA /* Layout Ninja.app */,
-				F4C2F9F61946387C005105CA /* Layout NinjaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,24 +107,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F4C2F9FC1946387C005105CA /* Layout NinjaTests */ = {
-			isa = PBXGroup;
-			children = (
-				F4C2FA021946387C005105CA /* Layout_NinjaTests.m */,
-				F4C2F9FD1946387C005105CA /* Supporting Files */,
-			);
-			path = "Layout NinjaTests";
-			sourceTree = "<group>";
-		};
-		F4C2F9FD1946387C005105CA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4C2F9FE1946387C005105CA /* Layout NinjaTests-Info.plist */,
-				F4C2F9FF1946387C005105CA /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,24 +127,6 @@
 			productReference = F4C2F9D51946387C005105CA /* Layout Ninja.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4C2F9F51946387C005105CA /* Layout NinjaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4C2FA091946387C005105CA /* Build configuration list for PBXNativeTarget "Layout NinjaTests" */;
-			buildPhases = (
-				F4C2F9F21946387C005105CA /* Sources */,
-				F4C2F9F31946387C005105CA /* Frameworks */,
-				F4C2F9F41946387C005105CA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4C2F9FB1946387C005105CA /* PBXTargetDependency */,
-			);
-			name = "Layout NinjaTests";
-			productName = "Layout NinjaTests";
-			productReference = F4C2F9F61946387C005105CA /* Layout NinjaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +136,6 @@
 				CLASSPREFIX = LN;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Simon Blommegård";
-				TargetAttributes = {
-					F4C2F9F51946387C005105CA = {
-						TestTargetID = F4C2F9D41946387C005105CA;
-					};
-				};
 			};
 			buildConfigurationList = F4C2F9D01946387C005105CA /* Build configuration list for PBXProject "Layout Ninja" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +151,6 @@
 			projectRoot = "";
 			targets = (
 				F4C2F9D41946387C005105CA /* Layout Ninja */,
-				F4C2F9F51946387C005105CA /* Layout NinjaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C2F9F41946387C005105CA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4C2FA011946387C005105CA /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,23 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4C2F9F21946387C005105CA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4C2FA031946387C005105CA /* Layout_NinjaTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F4C2F9FB1946387C005105CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F4C2F9D41946387C005105CA /* Layout Ninja */;
-			targetProxy = F4C2F9FA1946387C005105CA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F4C2F9E11946387C005105CA /* InfoPlist.strings */ = {
@@ -299,14 +204,6 @@
 				F4C2F9EE1946387C005105CA /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		F4C2F9FF1946387C005105CA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4C2FA001946387C005105CA /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,46 +305,6 @@
 			};
 			name = Release;
 		};
-		F4C2FA0A1946387C005105CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Layout Ninja.app/Contents/MacOS/Layout Ninja";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Layout Ninja/Layout Ninja-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Layout NinjaTests/Layout NinjaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F4C2FA0B1946387C005105CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Layout Ninja.app/Contents/MacOS/Layout Ninja";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Layout Ninja/Layout Ninja-Prefix.pch";
-				INFOPLIST_FILE = "Layout NinjaTests/Layout NinjaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -467,14 +324,7 @@
 				F4C2FA081946387C005105CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F4C2FA091946387C005105CA /* Build configuration list for PBXNativeTarget "Layout NinjaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4C2FA0A1946387C005105CA /* Debug */,
-				F4C2FA0B1946387C005105CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

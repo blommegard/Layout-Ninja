@@ -8,9 +8,14 @@
 
 #import "LNAppDelegate.h"
 
+@interface LNAppDelegate ()
+@property (strong) NSTextInputContext *context;
+@end
+
 @implementation LNAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+  self.context = [NSTextInputContext new];
   [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(activateApp:) name:NSWorkspaceDidActivateApplicationNotification object:nil];
 }
 
@@ -18,12 +23,15 @@
   NSString *defaultInputSource = @"com.apple.keylayout.Swedish-Pro";
   NSString *devInputSource = @"com.apple.keylayout.US";
 
-  NSArray *devApps = @[@"com.apple.dt.Xcode"];
+  NSArray *devApps = @[
+                       @"com.apple.dt.Xcode",
+                       @"org.vim.MacVim"
+                       ];
   
   NSRunningApplication *app = notification.userInfo[NSWorkspaceApplicationKey];
-  NSString *inputSource = [devApps containsObject:app.bundleIdentifier]?devInputSource:defaultInputSource;
+  NSString *inputSource = [devApps containsObject:app.bundleIdentifier] ? devInputSource : defaultInputSource;
   
-  [[NSTextInputContext new] setSelectedKeyboardInputSource:inputSource];
+  [self.context setSelectedKeyboardInputSource:inputSource];
 }
 
 @end
